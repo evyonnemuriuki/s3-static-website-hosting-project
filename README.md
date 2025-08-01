@@ -1,4 +1,4 @@
-### HOSTING A STATIC WEBSITE ON AMAZON S3
+# HOSTING A STATIC WEBSITE ON AMAZON S3
 This mini-project outlines the steps to configure an S3 bucket for static website hosting.
 ## 1. Create a bucket
 - Log in to the AWS management console.\
