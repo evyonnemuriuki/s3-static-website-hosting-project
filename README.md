@@ -1,4 +1,5 @@
 ### HOSTING A STATIC WEBSITE ON AMAZON S3
+This mini-project outlines the steps to configure an S3 bucket for static website hosting.
 ## 1. Create a bucket
 - Log in to the AWS management console.\
 **Confirm the desired region is selected at the top right. The bucket will be hosted in the specified region.**
@@ -10,10 +11,10 @@
 ## 3. Configure a static website on Amazon S3
 - Under **Properties** tab of the S3 bucket, navigate to **Static Website Hosting** and click **edit**. Note that the feature is *disabled*.\
 ![Static website hosting disabled.](screenshots/static-website-hosting-disabled.png)
-- Enable and specify the home page of the website(this is compulsory).\
+- Enable and specify the home page(*index.html* in this case) of the website(this is compulsory).\
 ![Static website hosting editing](screenshots/edit-static-website-hosting.png)
-- An endpoint URL now appears in the **Static Website Hosting** panel.
-![Static website hosting enabled](screenshots/static-website-hosting-enabled.png)\
+- An endpoint URL now appears in the **Static Website Hosting** panel.\
+![Static website hosting enabled](screenshots/static-website-hosting-enabled.png)
 - Testing this URL on a browser, an error displays.\
 ![403 Error](screenshots/403-forbidden-error.png)
 ## 4. Allow public access to the website.
